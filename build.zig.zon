@@ -1,0 +1,19 @@
+.{
+    .name = .libunibreak,
+    .version = "6.1.0",
+    .fingerprint = 0xb4b2629206540168, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .libunibreak = .{
+            .url = "git+https://github.com/adah1972/libunibreak#libunibreak_6_1",
+            .hash = "N-V-__8AAP2WJABz8MG5j9kMMtJ9PAOyWLtDoNv50lL2eAQH",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "README.md",
+        "LICENSE",
+        "LICENSE-LIBUNIBREAK",
+    },
+}
